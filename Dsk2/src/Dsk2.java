@@ -52,7 +52,7 @@ public class Dsk2 {
         f.setBounds(0, 0, 1366, 768);
         f.setUndecorated(true);
 
-        ImageIcon i = new ImageIcon("E:\\All Softwares\\Java Code\\Dsk1\\src\\dsk1\\w.jpg");
+        ImageIcon i = new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\w.png");
         JLabel l = new JLabel(i);
         l.setBounds(0, 0, 1366, 768);
         f.add(l);
@@ -67,20 +67,23 @@ public class Dsk2 {
                     JFrame frame = new JFrame();
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     frame.setLayout(null);
-                    frame.setSize(150, 200);
+                    frame.setSize(55, 55);
                     frame.setLocation(x, y);
                     frame.setUndecorated(true);
                     frame.setVisible(true);
-                    JLabel label = new JLabel("View");
-                    label.setBounds(60, 13, 150, 20);
-                    label.setForeground(Color.BLACK);
-                    frame.add(label);
-                    JLabel label1 = new JLabel("Sort by");
-                    label1.setBounds(55, 50, 150, 20);
-                    label1.setForeground(Color.BLACK);
-                    frame.add(label1);
-                    JLabel label2 = new JLabel("Refresh");
-                    label2.setBounds(55, 87, 150, 20);
+//                    JLabel label = new JLabel("View");
+//                    label.setBounds(60, 13, 150, 20);
+//                    label.setForeground(Color.BLACK);
+//                    frame.add(label);
+//                    JLabel label1 = new JLabel("Sort by");
+//                    label1.setBounds(55, 50, 150, 20);
+//                    label1.setForeground(Color.BLACK);
+//                    frame.add(label1);
+                    
+                    ImageIcon i5 =new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\refresh.png");
+                    JLabel label2 = new JLabel(i5);
+                    label2.setBounds(0,0, 55, 55);
+                    //label2.setSize(55,55);
                     label2.setForeground(Color.BLACK);
                     frame.add(label2);
                     label2.addMouseListener(new MouseAdapter() {
@@ -109,9 +112,9 @@ public class Dsk2 {
 
         });
 
-        ImageIcon i1 = new ImageIcon("E:\\All Softwares\\Java Code\\Dsk1\\src\\dsk1\\pc.png");
+        ImageIcon i1 = new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\mycomputer.png");
         JLabel l1 = new JLabel(i1);
-        l1.setBounds(10, 0, 55, 55);
+        l1.setBounds(15,9, 64,64);
         l.add(l1);
         l1.addMouseListener(new MouseAdapter() {
             @Override
@@ -133,13 +136,13 @@ public class Dsk2 {
         });
 
         JLabel l2 = new JLabel("My Computer");
-        l2.setBounds(7, 40, 75, 55);
+        l2.setBounds(12, 55, 75, 64);
         l2.setForeground(Color.WHITE);
         l.add(l2);
 
-        ImageIcon i2 = new ImageIcon("E:\\All Softwares\\Java Code\\Dsk1\\src\\dsk1\\rb.png");
+        ImageIcon i2 = new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\recyclebin.png");
         JLabel l3 = new JLabel(i2);
-        l3.setBounds(10, 100, 55, 55);
+        l3.setBounds(15, 118, 64, 64);
         l.add(l3);
         l3.addMouseListener(new MouseAdapter() {
             @Override
@@ -159,13 +162,13 @@ public class Dsk2 {
         });
 
         JLabel l4 = new JLabel("Recycle Bin");
-        l4.setBounds(10, 140, 70, 55);
+        l4.setBounds(15, 162, 70, 64);
         l4.setForeground(Color.WHITE);
         l.add(l4);
 
-        ImageIcon i3 = new ImageIcon("E:\\All Softwares\\Java Code\\Dsk1\\src\\dsk1\\taskbarpng.png");
+        ImageIcon i3 = new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\taskbar.png");
         JLabel l5 = new JLabel(i3);
-        l5.setBounds(0, 715, 1368, 55);
+        l5.setBounds(0, 720, 1368, 45);
         l.add(l5);
         l5.addMouseListener(new MouseAdapter() {
             @Override
@@ -211,7 +214,7 @@ public class Dsk2 {
 
         });
 
-        ImageIcon i4 = new ImageIcon("E:\\All Softwares\\Java Code\\Dsk1\\src\\dsk1\\sp.jpg");
+        ImageIcon i4 = new ImageIcon("C:\\Users\\Soumik\\Documents\\GitHub\\Windows-Style-Operating-System\\Dsk2\\Pictures\\startbutton.png");
         JLabel l6 = new JLabel(i4);
         l6.setBounds(0, 0, 55, 55);
         l5.add(l6);
